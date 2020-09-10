@@ -1,0 +1,3 @@
+include ':ExpandView'
+include ':app'
+rootProject.name = "ExpandAnim"
