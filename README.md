@@ -3,7 +3,7 @@
 # Expand View
 Library Expand & Collapse View
 
-![alt text](![alt text](https://raw.githubusercontent.com/vickyKDV/ExpandView/blob/master/Screenrecorder-2020-09-10-19-18.gif))
+![alt text](https://raw.githubusercontent.com/vickyKDV/ExpandView/master/Screenrecorder-2020-09-10-19-18.gif)
 
 
 ### Implementation
