@@ -1,10 +1,11 @@
-[![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/#vickyKDV/ExpandView)
+[![Release](https://jitpack.io/v/vickyKDV/ExpandView.svg)](https://jitpack.io/#vickyKDV/ExpandView)
 
 # Expand View
 Library Expand & Collapse View
 
-### How to Used
+
+
+### Implementation
     allprojects {
             repositories {
                 ...
@@ -16,7 +17,7 @@ Library Expand & Collapse View
 	        implementation 'com.github.vickyKDV:ExpandView:Tag'
 	}
 
-### Implementation
+### How to Used
     final FloatingActionButton fab = findViewById(R.id.fab);
     fab.setOnClickListener(new View.OnClickListener() {
     @Override
