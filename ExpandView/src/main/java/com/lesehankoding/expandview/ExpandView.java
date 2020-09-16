@@ -5,15 +5,18 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
+
 public class ExpandView extends Animation {
 
-    public static void ExpandInit(View layoutExpand, View arrow) {
+
+    public static void ExpandInit(View layoutExpand, View arrow, int rotation) {
         if (layoutExpand.getVisibility() == View.VISIBLE) {
             ExpandView.collapse(layoutExpand);
             arrow.animate().setDuration(100).rotation(0);
         } else {
+
             ExpandView.expandAction(layoutExpand);
-            arrow.animate().setDuration(100).rotation(90);
+            arrow.animate().setDuration(100).rotation(rotation);
         }
     }
 

@@ -22,7 +22,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 final TextView textView = findViewById(R.id.textView);
-                ExpandView.ExpandInit(textView,fab);
+                ExpandView.ExpandInit(textView,fab, 180);
+            }
+        });
+
+        final FloatingActionButton fab2 = findViewById(R.id.fab2);
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final TextView textView = findViewById(R.id.textView);
+                ExpandView.ExpandInit(textView,fab2, 90);
             }
         });
     }
